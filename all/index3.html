@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Gabriela" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+	<link rel="stylesheet" href="/asset/vendor/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+		<div class="row">
+			<div class="intro col-12">
+			<h1 id="myDate" style="font-family: Cinzel Decorative"></h1>
+			<h1 class="myH1" style="font-family: Cinzel Decorative">Welcome Alade Nosirat</h1>
+				<div>
+					<div class="border1"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInput" type="text" placeholder="Enter your to do list..." maxlength="27">
+				<a id="enter" onclick="myFunction()"><i class="fas fa-pencil-alt"></i></a>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2" onclick="subjects()" style="text-transform: lowercase;">
+					
+				</ul>
+			</div>
+		</div>
+        <script src="main.js"></script>
+		<script src="asset/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="calculator.js"></script>
+
+    </html>
