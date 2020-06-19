@@ -1,2 +1,2 @@
 # my_portfolio
-All about me
+I am a proud programmer
