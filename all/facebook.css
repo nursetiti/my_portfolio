@@ -1,0 +1,59 @@
+nav{
+    background-color: #3f5c9a;
+    height: 90px;
+}
+.brand-logo{
+    color: white;
+    font-size: 35px;
+    font-weight: 1000;
+    padding-left:300px;
+    top:3%;
+    position: absolute;
+    margin: 0 auto;
+}
+form{
+    position: absolute;
+    /* margin: 0 auto; */
+    left:50%;
+    top:5%;
+}
+.password{
+    margin: 0 auto;
+    position: absolute;
+    top:105%;
+    left:50%;
+    color: white;
+    font-size: 13px;
+}
+.password:hover{
+    text-decoration: none;
+    color: black;
+}
+.phone{
+    margin: 0 auto;
+    position: absolute;
+    top:2%;
+    padding-bottom: 50px !important;
+    left:50%;
+    color: white;
+    font-size: 13px;
+}
+.pass{
+    margin: 0 auto;
+    position: absolute;
+    top:2%;
+    padding-bottom: 50px !important;
+    left:61%;
+    color: white;
+    font-size: 13px;
+}
+.passWord{
+    margin-left:15px;
+}
+button{
+    background-color: #3f5c9a;
+    border: 1px solid blue;
+}
+main{
+    background-image: linear-gradient( #fdfefe, #e4e7f1);
+}
